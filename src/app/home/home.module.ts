@@ -6,14 +6,17 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { CustomCardComponent } from '../components/custom-card/custom-card.component';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, CustomCardComponent]
 })
 export class HomePageModule {}

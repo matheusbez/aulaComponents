@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+    card_amount: number = 3;  
+
   constructor() {}
+
+  handleEvent(event:any){
+    console.log('Evento recebido');
+    alert(event);
+  }
 
 }
